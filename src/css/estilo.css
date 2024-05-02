@@ -58,3 +58,27 @@ nav ul ul li{
 nav ul ul li a{
     background-color: purple;
 }
+
+label[for="bt-menu"]{
+    padding: 5px;
+    background: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+}
+
+#bt-menu{
+    display: none;
+}
+
+label[for="bt-menu"]{
+    display: none;
+}
+
+section{
+    width: 100px;
+    height: 100vh;
+}
